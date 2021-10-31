@@ -1,0 +1,35 @@
+.menu {
+    padding-top: 1rem;
+    background: #25272A;
+    text-align: start;
+    height: 100vh;
+}
+
+.ch_but {
+    color: white;
+}
+
+.channels a::before {
+    content: "# ";
+    color: white;
+}
+
+.channels a.active, .friends a.active {
+    background-color: gray !important;
+}
+
+.channels a, .friends a {
+    color: white;
+}
+
+.channels nav, .friends nav {
+    padding: 0;
+}
+
+.qqww {
+    padding: 0;
+}
+.message {
+    margin: 1rem;
+    width: 18rem;
+}
